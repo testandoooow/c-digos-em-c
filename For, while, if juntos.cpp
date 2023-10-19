@@ -24,13 +24,12 @@ media = soma / contador;
 if(media >= 7){
 	strcpy(resultado, "Aprovado!");
 } else if(media >= 5){
-	strcpy(resultado, "Recuperação!");
+	strcpy(resultado, "RecuperaÃ§Ã£o!");
 } else {
 	strcpy(resultado, "Reprovado!");
 }
 
-printf("\n%d",contador);
-printf("\nMedia: %f",media);
+printf("\nMedia: %.1f",media);
 printf("\n%s",resultado);
 
   return 0;
