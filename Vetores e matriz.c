@@ -15,7 +15,7 @@ int main(){
 		gets(disciplina[i]);
 		
 		for(j = 0; j < 3; j++){
-			printf("Digite a %dª nota: ",j + 1);
+			printf("Digite a %dÂª nota: ",j + 1);
 			scanf("%f",&nota[i][j]);
 			somaPeso += peso[j];
 			soma += nota[i][j] * peso[j];
