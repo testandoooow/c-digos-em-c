@@ -22,7 +22,7 @@ int main(){
 	int numero[6], i;
 	
 	for(i = 0; i < 6; i++){
-	printf("Digite o %dº numero: ",i + 1);
+	printf("Digite o %dÂº numero: ",i + 1);
 	scanf("%d",&numero[i]);
 }
 
