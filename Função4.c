@@ -17,6 +17,6 @@ int main(){
 	scanf("%d",&metros);
 	
 	converter = medir(metros);
-	printf("Convertendo %d em centímetros... %d = %d",metros, metros, converter);
+	printf("Convertendo %d em centÃ­metros... %d = %d",metros, metros, converter);
 	return 0;
 }
