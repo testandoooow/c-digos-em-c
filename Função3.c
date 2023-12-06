@@ -39,9 +39,9 @@ int main(){
 	int numero, numero2, i, soma, subtracao, multiplicacao;
 	float divisao;
 	
-	printf("Digite o primeiro número: ");
+	printf("Digite o primeiro nÃºmero: ");
 	scanf("%d",&numero);
-	printf("Digite o segundo número: ");
+	printf("Digite o segundo nÃºmero: ");
 	scanf("%d",&numero2);
 	
 	soma = somar(numero, numero2);
@@ -50,9 +50,9 @@ int main(){
 	multiplicacao = multiplicar(numero, numero2);
 	
 	printf("Soma: %d\n",soma);
-	printf("Subtração: %d\n",subtracao);
-	printf("Divisão: %.1f\n",divisao);
-	printf("Multiplicação: %d",multiplicacao);
+	printf("SubtraÃ§Ã£o: %d\n",subtracao);
+	printf("DivisÃ£o: %.1f\n",divisao);
+	printf("MultiplicaÃ§Ã£o: %d",multiplicacao);
 	
 	return 0;
 }
