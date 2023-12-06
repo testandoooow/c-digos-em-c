@@ -33,14 +33,14 @@ int main(){
 	int numero[6], i, par = 0, impar = 0;
 	
 	for(i = 0; i < 6; i++){
-		printf("Digite o %dº número: ",i + 1);
+		printf("Digite o %dÂº nÃºmero: ",i + 1);
 		scanf("%d",&numero[i]);
 	}
 	
 	par = quantidadePar(numero);
 	impar = quantidadeImpar(numero);
 	
-	printf("Quantidade de números pares: %d\n",par);
-	printf("Quantidade de números impares: %d\n",impar);
+	printf("Quantidade de nÃºmeros pares: %d\n",par);
+	printf("Quantidade de nÃºmeros impares: %d\n",impar);
 	return 0;
 }
